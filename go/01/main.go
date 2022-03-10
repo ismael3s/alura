@@ -19,7 +19,7 @@ func main() {
 	case 0:
 		fmt.Println("Exiting...")
 	default:
-		fmt.Println("Invalid input")
+		fmt.Println("Invalid input!")
 	}
 
 }
