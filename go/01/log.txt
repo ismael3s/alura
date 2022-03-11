@@ -1,0 +1,16 @@
+2022-03-11 00:30:25 - https://www.google.com isUp true.
+2022-03-11 00:30:26 - https://random-status-code.herokuapp.com/ isUp true.
+2022-03-11 00:30:27 - https://www.google.com isUp true.
+2022-03-11 00:30:27 - https://random-status-code.herokuapp.com/ isUp true.
+2022-03-11 00:30:47 - https://www.google.com isUp true.
+2022-03-11 00:30:48 - https://random-status-code.herokuapp.com/ isUp true.
+2022-03-11 00:30:49 - https://www.google.com isUp true.
+2022-03-11 00:30:49 - https://random-status-code.herokuapp.com/ isUp false.
+2022-03-11 00:30:52 - https://www.google.com isUp true.
+2022-03-11 00:30:52 - https://random-status-code.herokuapp.com/ isUp true.
+2022-03-11 00:30:53 - https://www.google.com isUp true.
+2022-03-11 00:30:54 - https://random-status-code.herokuapp.com/ isUp false.
+2022-03-11 00:35:38 - https://www.google.com isUp true.
+2022-03-11 00:35:39 - https://random-status-code.herokuapp.com/ isUp false.
+2022-03-11 00:35:40 - https://www.google.com isUp true.
+2022-03-11 00:35:41 - https://random-status-code.herokuapp.com/ isUp false.
