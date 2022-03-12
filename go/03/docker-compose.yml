@@ -1,0 +1,18 @@
+version: '3'
+services:
+  products_database:
+    image: postgres
+    container_name: alura_03_products_database
+    environment:
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=docker
+    ports:
+      - 5432:5432
+    logging:
+        options:
+          max-size: 10m
+          max-file: "3"
+    volumes:
+      - ./.docker/postgres/data:/var/lib/postgresql/data
+      - ./scripts.sql:/docker-entrypoint-initdb.d/scripts.sql
