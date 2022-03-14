@@ -1,0 +1,13 @@
+version: '3'
+services:
+  04_db:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - ./.docker/db:/var/lib/postgresql/data
+      - ./migrations/script.sql:/docker-entrypoint-initdb.d/script.sql
